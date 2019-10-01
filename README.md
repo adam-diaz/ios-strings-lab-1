@@ -71,32 +71,45 @@ Write code that switches on a string, given the following conditions:
 - If the string's length is even, print out every character.
 - If the string's length is odd, print out every other character.
 
+Answer: to be worked on with class
 ***
 ## Question 7
 
 Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
+
+
 
 ***
 ## Question 8
 
 Build five pairs of **canonically equivalent** strings, the first of each being a pre-composed character and the second being one that uses combinable unicode scalars. Show that they are equivalent.
 
+1. "\u{006E}" == "n"
+2. "\u{0041}" == "A"
+3. "\u{0064}" == "d"
+4. "\u{0051}" == "Q"
+5. "\u{0052}" == "R"
+
 ***
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
 
+Answer: i did 10
 ***
 ## Question 10
 
 **Using only Unicode**, print out your name.
+
+let name = "\u{0041}\u{0064}\u{0061}\u{006D}"
+print(name)
 
 ***
 ## Question 11
 
 **Using only Unicode**, print out `"HELLO WORLD!"` in another language.
 
-
+answer: i did 10
 ***
 ## Question 12
 
