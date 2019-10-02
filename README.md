@@ -71,13 +71,32 @@ Write code that switches on a string, given the following conditions:
 - If the string's length is even, print out every character.
 - If the string's length is odd, print out every other character.
 
-Answer: to be worked on with class
+let message = "Good Afternoon"
+
+switch message {
+case message where message.count % 2 == 0:
+    for char in message {
+        print(char, terminator: " ")
+    }
+default:
+    for (index, char) in message.enumerated()
+    where index % 2 == 1 {
+        print(char, terminator: " ")
+    }
+}
+
+Answer: worked on with Alex
 ***
 ## Question 7
 
 Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
 
+let char: Character = "a"
+let str = String(char)
+print:(type(of: char))
+print(type(of: str))
 
+(reviewed with class)
 
 ***
 ## Question 8
@@ -131,6 +150,25 @@ Flower Box:
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
 - - - - - - - - - - -
+
+var N = 6
+var flowers = " \u{2698} "
+var borders = "-"
+var rows = "|"
+for _ in 1...11 {
+   print(borders, terminator: " ")
+}
+print()
+for _ in 1...6 {
+   for _ in 1...5 {
+       print(rows , terminator: flowers)
+   }
+   print(rows)
+   }
+for _ in 1...11 {
+   print(borders, terminator: " ")
+}
+
 ```
 
 ***
