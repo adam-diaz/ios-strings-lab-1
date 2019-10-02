@@ -249,6 +249,21 @@ be \() miles an hour, and the high temperature should
 be around \() degrees. So, if you're going out, you had
 better plan on wearing your \()".
 ```
+## Answer:
+
+
+var geographicLocation: String = "The Bronx"
+var adjective1: String = "Sphaghetti-Taco"
+var pluralNoun1: String = "Bachateros"
+var adjective2: String = "Baggy"
+var pluralNoun2: String = "Chicken"
+var number1: Int = 500
+var number2: Int = 300
+var articleOfClothing: String = "NOTHING"
+
+var madLib: String = "Here is tomorrow's weather report for \(geographicLocation) and vicinity. Early tomorrow, a \(adjective1)-front will collide with a mass of hot \(pluralNoun1) moving from the north. This means we can expect \(adjective2) winds and occasional \(pluralNoun2) by late afternoon. Wind velocity will be \(number1) miles an hour, and the high temperature should be around \(number2) degrees. So, if you're going out, you had better plan on wearing your \(articleOfClothing)."
+
+print(madLib)
 
 ***
 
