@@ -195,7 +195,9 @@ You are given a string stored in the variable `aString`. Create new string named
 
 ```swift
 var aString = "Replace the letter e with *"
-// Your code here
+ 
+aString = aString.replacingOccurences(of: "e", with: "*")
+print(aString)
  ```
 
 Example:
