@@ -85,7 +85,7 @@ default:
     }
 }
 
-Answer: worked on with Alex
+(reviewed with class)
 ***
 ## Question 7
 
