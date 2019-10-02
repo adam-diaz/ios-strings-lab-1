@@ -215,9 +215,14 @@ You are given a string stored in variable `aString`. Create a new string called 
 
 ```swift
 var aString = "this string has 29 characters"
-var reverse = ""
+var reverse = "" // ???
 
-// Your code here
+
+var aString = "this string has 29 characters"
+for reverse in aString.reversed() {
+    print(reverse, terminator: "")
+}
+
 ```
 
 Example:
